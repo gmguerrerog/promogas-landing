@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PromoGas · Gas a domicilio</title>
 <meta name="description" content="PromoGas: balones de gas de 11 y 15 kg a domicilio. Pide por WhatsApp y aprovecha $3.000 de descuento.">
+<link rel="icon" type="image/png" href="img/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -27,9 +28,9 @@ svg{display:block}
 nav{position:sticky;top:0;z-index:40;background:rgba(255,248,239,.86);backdrop-filter:blur(12px);border-bottom:1px solid transparent;transition:border-color .2s}
 nav.scrolled{border-color:var(--line)}
 .nav-in{display:flex;align-items:center;justify-content:space-between;height:68px}
-.brand{display:flex;align-items:center;gap:10px;font-family:"Bricolage Grotesque";font-weight:800;font-size:1.35rem;color:var(--navy)}
-.brand b{color:var(--flame)}
-.brand-mark{width:34px;height:34px;border-radius:10px;background:var(--navy);display:grid;place-items:center}
+.brand{display:flex;align-items:center;gap:10px;font-family:"Bricolage Grotesque";font-weight:800;font-size:1.35rem;color:#15253c}
+.brand b{color:#cf4a29}
+.brand-mark{width:40px;height:40px;object-fit:contain}
 .nav-links{display:flex;gap:28px;font-weight:500;font-size:.95rem;color:var(--muted)}
 .nav-links a:hover{color:var(--navy)}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-weight:600;border-radius:999px;padding:14px 24px;border:0;cursor:pointer;font-size:1rem;font-family:inherit;transition:transform .15s,box-shadow .15s,background .15s}
@@ -226,7 +227,7 @@ footer{padding:50px 0 120px;color:var(--muted);font-size:.9rem}
 <nav id="nav">
   <div class="wrap nav-in">
     <a href="#" class="brand" aria-label="PromoGas inicio">
-      <span class="brand-mark"><svg width="18" height="22" viewBox="0 0 18 22"><path d="M9 0C5 5 2 8.5 2 13a7 7 0 0 0 14 0c0-3-2-5.5-3.5-7 0 3-1.5 4.5-3 4.5C10.5 7 10.5 3.5 9 0z" fill="url(#fl)"/></svg></span>
+      <img class="brand-mark" src="img/logo-promogas.png" alt="" width="40" height="40">
       <span>Promo<b>Gas</b></span>
     </a>
     <div class="nav-links">
@@ -398,7 +399,7 @@ footer{padding:50px 0 120px;color:var(--muted);font-size:.9rem}
 <footer>
   <div class="wrap foot">
     <a href="#" class="brand">
-      <span class="brand-mark"><svg width="18" height="22" viewBox="0 0 18 22"><path d="M9 0C5 5 2 8.5 2 13a7 7 0 0 0 14 0c0-3-2-5.5-3.5-7 0 3-1.5 4.5-3 4.5C10.5 7 10.5 3.5 9 0z" fill="url(#fl)"/></svg></span>
+      <img class="brand-mark" src="img/logo-promogas.png" alt="" width="40" height="40">
       <span>Promo<b>Gas</b></span>
     </a>
     <span>Siempre algo más · Gas a domicilio · WhatsApp +56 9 8412 4297</span>
